@@ -1,0 +1,101 @@
+/* App.css */
+
+
+.App {
+  width: 100%;
+  max-width: 400px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  margin: 0;
+}
+
+h1 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  background-image: linear-gradient(45deg, #ff00cc, #3333cc);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-weight: bold;
+}
+
+input[type="text"] {
+  width: 70%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+.add-btn {
+  padding: 10px;
+  background: linear-gradient(45deg, #ff00cc, #3333cc);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+
+ul {
+  margin-top: 20px;
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid #ccc;
+  align-items: center;
+}
+
+span {
+  display: flex;
+  margin: auto 0;
+}
+
+#completed {
+  text-decoration: line-through;
+  color: #4c3232;
+}
+
+.complete{
+  color: black;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 25px;
+  padding: 5px 0px 0px 0px;
+  margin-right: 10px;
+}
+
+.edit{
+  background: transparent;
+  color: darkgreen;
+  cursor: pointer;
+  font-size: 25px;
+  padding: 5px 0px 0px 0px;
+  border: none;
+}
+
+.delete {
+  color: red;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 25px;
+  padding: 5px 0px 0px 0px;
+  margin-left: 10px;
+}
+
+@media (max-width: 600px) {
+  .App {
+    max-width: 100%;
+  }
+}
